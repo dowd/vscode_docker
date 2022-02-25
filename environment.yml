@@ -2,3 +2,5 @@ name: geo2
 dependencies:
   - geopandas
   - rasterio
+  - rioxarray
+  - ipykernel
