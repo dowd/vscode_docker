@@ -19,7 +19,8 @@ RUN apt-get -y update && \
     libffi-dev \
     libssl-dev \
     libgeos-dev \
-    wget && \
+    wget \
+    git && \
     wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh -O /tmp/miniforge.sh && \
     /bin/bash /tmp/miniforge.sh -b -p ${CONDA_DIR}
 
